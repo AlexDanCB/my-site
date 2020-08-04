@@ -68,7 +68,7 @@ a:hover {
 
 /*____________Proyecto final_________________*/
 
-.cocktails-container {
+.top-container {
   columns: 2;
   margin: 30px 80px 40px 100px;
 }
@@ -79,7 +79,7 @@ a:hover {
   padding-right: 30px;
 }
 
-.cocktails {
+.drinks {
   width: 100%;
 }
 

@@ -1,0 +1,141 @@
+body {
+  font-family: 'Goudy Bookletter 1911', serif;
+  color: #40514E;
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: black;
+  text-align: center;
+  padding: 17px;
+}
+
+.topnav a {
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.3rem;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-family: 'Prata', serif;
+  color: #717BB7;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-family: 'Prata', serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Prata', serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #717BB7;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+li {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  font-family: 'Prata', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BACAF5;
+}
+
+.top-container {
+  text-align: center;
+  padding: 90px 20px 0px 20px;
+  background-color: white;
+}
+
+.skills {
+  margin: 45px 40px 50px 150px;
+  text-align: left;
+  columns: 2;
+  /*width: 100%;
+  height: 100%;
+  min-height: 50%;
+  min-width: 50%;
+  max-height: 80%;
+  max-width: 80%;*/
+}
+
+.mini-skills {
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+/*______________IMG________________*/
+.totems {
+  width: 80%;
+}
+
+.venus {
+  width: 50%;
+  margin-left: 60px;
+  margin-right: 150px;
+}
+
+.spider {
+  width: 60%;
+}
+
+/*____________Contact_________________*/
+.contact {
+  text-align: right;
+  margin: 20px 290px 60px 40px;
+  columns: 2;
+  /*width: 100%;
+  height: 100%;
+  min-height: 50%;
+  min-width: 50%;
+  max-height: 80%;
+  max-width: 80%;*/
+}
+
+.contact-mini {
+  padding-top: 20px;
+}
+
+.contactme {
+  color: black;
+  font-size: 1.3rem;
+}
+
+/*____________Footer_________________*/
+.bottom-container {
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: black;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAEAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}

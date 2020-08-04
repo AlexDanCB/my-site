@@ -139,23 +139,3 @@ a:hover {
   font-size: 0.75em;
   padding: 20px 0;
 }
-
-
-
-
-@media only screen and (max-width: 414px) {
-  .mobile-screen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-
-  .mobile-text {
-    font-size: 30px;
-  }
-
-  .desktop-screen {
-    display: none;
-  }
-}

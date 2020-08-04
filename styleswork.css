@@ -68,12 +68,12 @@ a:hover {
 
 /*____________Proyecto final_________________*/
 
-.alchemist-container {
+.cocktails-container {
   columns: 2;
   margin: 30px 80px 40px 100px;
 }
 
-.alchemistclass {
+.cocktails-class {
   padding-top: 65px;
   padding-left: 30px;
   padding-right: 30px;

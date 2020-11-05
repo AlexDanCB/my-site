@@ -1,0 +1,226 @@
+body {
+  font-family: 'AppleGothic', serif;
+  font-size: 1rem;
+  color: #2A2A2A;
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: black;
+  text-align: center;
+  padding: 18px;
+}
+
+.topnav a {
+  padding: 84px 84px;
+  font-family: 'AppleGothic', serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+main {
+  margin: 0px 50px 100px 50px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  line-height: 2;
+  text-align: center;
+  padding-top: 135px;
+  padding-bottom: 30px;
+  font-family: 'AppleGothic', serif;
+  color: #717BB7;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-family: 'AppleGothic', serif;
+  color: black;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+p {
+  line-height: 2;
+}
+
+li {
+  line-height: 1.4
+}
+
+a {
+  color: white;
+  font-family: 'AppleGothic', serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BACAF5;
+}
+
+.caseStudy {
+  color: black;
+  padding-left: 0px;
+  font-size: 1rem;
+}
+
+
+/*____________Fashion_Web_________________*/
+
+
+.fashion-container {
+  columns: 2;
+  margin: 60px 140px 75px 100px;
+}
+
+.fashionWeb-class {
+  padding: 20px 20px 30px 20px;
+}
+
+.model {
+  width:120%;
+}
+
+/*____________Landing_Web_________________*/
+
+.landing-container {
+  columns: 2;
+  margin: 30px 80px 30px 100px;
+}
+
+.landingContent-class {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.landinging {
+  width: 110%;
+}
+
+
+
+/*_______________Buggles_________________*/
+
+.up-container {
+  columns: 2;
+  margin: 60px 40px 40px 110px;
+}
+
+.assistant-class {
+  padding: 10px 70px 20px 20px;
+}
+
+.buggles {
+  padding-top: 20px;
+  width:90%;
+}
+
+
+
+/*____________Synchro-Learning_________________*/
+
+
+.nextproject-container {
+  columns: 2;
+  margin: 30px 80px 30px 100px;
+}
+
+.learning-class {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.plants {
+  width: 100%;
+}
+
+
+/*____________The Alchemist_________________*/
+
+.top-container {
+  columns: 2;
+  margin: 60px 140px 30px 100px;
+}
+
+.cocktails-class {
+  padding: 20px 20px 30px 20px;
+}
+
+.drinks {
+  width:117%;
+}
+
+
+/*____________Yo Jaguar_________________*/
+
+.first-container {
+  columns: 2;
+  margin: 80px 80px 20px 100px;
+}
+
+.jaguarclass {
+  padding-top: 20px;
+  padding-left: 60px;
+}
+
+.jaguar {
+  width: 100%;
+}
+
+/*____________Medium_________________*/
+.second-container {
+  columns: 2;
+  margin: 60px 80px 50px 100px;
+}
+
+.mediumclass {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+.medium {
+  width: 100%;
+}
+
+/*____________Librería_________________*/
+.third-container {
+  columns: 2;
+  margin: 40px 80px 30px 55px;
+
+}
+
+.libraryclass {
+  padding:1px 0px 0px 60px;
+
+}
+
+.library {
+  width: 100%;
+}
+
+/*____________Otro_________________*/
+
+
+/*____________Footer_________________*/
+
+.bottom-container {
+  text-align: center;
+  font-family: 'AppleGothic', serif;
+  font-size: 1.2rem;
+  background-color: black;
+  padding: 50px 0 20px;
+}
+
+.footer-link {
+  margin: 10px 20px;
+}
+
+.copyright {
+  color: #EAEAF6F6;
+  font-family: 'AppleGothic', serif;
+  font-size: 0.60em;
+  padding: 20px 0;
+}

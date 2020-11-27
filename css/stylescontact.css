@@ -1,0 +1,96 @@
+body {
+  font-family: 'AppleGothic', serif;
+  font-size: 1rem;
+  color: #2A2A2A;
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: black;
+  text-align: center;
+  padding: 18px;
+}
+
+.topnav a {
+  padding: 47px 47px;
+  font-family: 'AppleGothic', serif;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+main {
+  margin: 120px 50px 50px 200px;
+  align-items: center;
+  columns: 2;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-family: 'AppleGothic', serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: black;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-family: 'AppleGothic', serif;
+  color: #717BB7;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  font-family: 'AppleGothic', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BACAF5;
+}
+
+
+.stayInTouch {
+
+padding-top: 28px;
+
+}
+
+
+.contact {
+  color: black;
+  margin-left: 0px;
+}
+
+/*____________IMG_________________*/
+
+.contacting {
+  width: 45%;
+  margin-left: 100px;
+  margin-bottom: 15px;
+}
+
+/*____________Footer_________________*/
+.bottom-container {
+  text-align: center;
+  font-family: 'AppleGothic', serif;
+  font-size: 1.2rem;
+  background-color: black;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAEAF6F6;
+  font-family: 'AppleGothic', serif;
+  font-size: 0.60em;
+  padding: 20px 0;
+}

@@ -1,0 +1,376 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: #555555;
+}
+
+
+ /* Style the navigation bar */
+.navbar {
+ width: 100%;
+ background-color:#f0e4d7;
+ overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+ float: right;
+ text-align: center;
+ font-family: 'Cookie', cursive;
+ padding: 7px;
+ color: #555555;
+ text-decoration: none;
+ font-size: 25px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+ background-color: #fbf7f0;
+}
+
+/* Current/active navbar link */
+.active {
+ background-color: #f0e4d7;
+}
+
+
+h1 {
+  font-size: 1.4rem;
+  line-height: 2.1;
+  padding-bottom: 10px;
+  color: #9fd8df;
+}
+
+h2 {
+  font-size: 1.6rem;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  color: #555555;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Cookie', cursive;
+  padding-bottom: 10px;
+  color: #555555;
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+li {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+a {
+  color: #555555;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9fd8df;
+  border-radius: 28px;
+}
+
+.eye {
+  width: 4%;
+}
+
+.titleP{
+  font-size: 1.2rem;
+  padding-top: 10px;
+}
+
+/*____________Button_________________*/
+
+#btn {
+  background: #b2e4d5;
+  height: 40px;
+  width: 180px;
+  min-width: 40px;
+  border: none;
+  border-radius: 28px;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#btn #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#btn:hover {
+  background: transparent;
+}
+
+#btn:hover #circle {
+  height: 40px;
+  width: 40px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
+}
+
+/*____________Title_________________*/
+
+.me-container {
+  columns: 2;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+.me-title {
+  text-align: left;
+  padding: 12% 0% 5% 30%;
+}
+
+.me-image {
+padding: 25% 30% 5% 0%;
+}
+
+.Meee {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*____________WORK_________________*/
+
+
+.myWork {
+  text-align: left;
+  padding: 1% 60% 5% 15%;
+}
+
+/*____________Yo Jaguar_________________*/
+
+.first-container {
+  columns: 2;
+}
+
+.jaguar-class {
+  text-align: left;
+  padding: 0% 20% 10% 2%;
+}
+
+.jaguar-container {
+  padding: 0% 2% 10% 20%;
+}
+
+.jaguar {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*____________Synchro-Learning_________________*/
+
+
+.nextproject-container {
+  columns: 2;
+}
+
+.learning-class {
+  text-align: left;
+  padding: 5% 20% 5% 2%;
+}
+
+.plants-container{
+  padding: 5% 2% 5% 20%;
+}
+
+.plants {
+  max-width: 100%;
+  height: auto;
+}
+
+/*____________The Alchemist_________________*/
+
+.top-container {
+  columns: 2;
+}
+
+.cocktails-class {
+  text-align: left;
+  padding: 15% 2% 10% 24%;
+}
+
+.cocktails-container {
+  padding: 15% 20% 10% 2%;
+}
+
+.drinks {
+  max-width: 100%;
+  height: auto;
+}
+
+/*_______________Buggles_________________*/
+
+.up-container {
+  columns: 2;
+}
+
+.assistant-class {
+  text-align: left;
+  padding: 20% 2% 10% 24%;
+}
+
+.buggles-container {
+padding: 20% 20% 10% 2%;
+}
+
+.buggles {
+  max-width: 100%;
+  height: auto;
+}
+
+/*____________Medium_________________*/
+.second-container {
+  columns: 2;
+}
+
+.mediumclass {
+  text-align: left;
+  padding: 5% 2% 5% 24%;
+}
+
+.medium-container {
+  padding: 5% 24% 5% 2%;
+}
+
+.medium {
+  max-width: 100%;
+  height: auto;
+}
+
+/*____________Librería_________________*/
+.third-container {
+  columns: 2;
+}
+
+.libraryclass {
+  text-align: left;
+  padding: 4% 20% 15% 2%;
+}
+
+.library-container {
+  padding: 4% 2% 15% 20%;
+}
+
+.library {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+/*____________Contact_________________*/
+
+.contact {
+  text-align: right;
+  margin: 20px 290px 60px 40px;
+  columns: 2;
+}
+
+.contact-mini {
+  padding-top: 20px;
+}
+
+.contactme {
+  color: #555555;
+  font-size: 1.3rem;
+}
+
+/*____________Footer_________________*/
+.bottom-container {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #555555;
+  background-color: #f0e4d7;
+  padding: 30px 0 30px;
+}
+
+/*____________Mobile_________________*/
+
+@media screen and (max-width: 500px) {
+
+  .navbar a{
+   font-size: 1.4rem;
+  }
+    h1 {
+      font-size: 1.1rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    .titleP {
+      line-height: 1rem;
+      font-size: 1rem;
+    }
+
+    .liP{
+      line-height: 0.8rem;
+      font-size: 0.6rem;
+    }
+
+    .meee {
+      width: 100%;
+    }
+
+    #btn {
+        background: #b2e4d5;
+        height: 40px;
+        width: 180px;
+        min-width: 40px;
+        border: none;
+        border-radius: 28px;
+        font-size: 30px;
+        font-family: 'Cookie', cursive;
+        position: relative;
+        transition: 1s;
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+      }
+    }
